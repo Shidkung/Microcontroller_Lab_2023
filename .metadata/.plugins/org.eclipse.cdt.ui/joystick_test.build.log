@@ -1,0 +1,10 @@
+10:35:43 **** Incremental Build of configuration Debug for project joystick_test ****
+make -j16 all 
+arm-none-eabi-size   joystick_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26372	    100	   2796	  29268	   7254	joystick_test.elf
+Finished building: default.size.stdout
+ 
+
+10:35:43 Build Finished. 0 errors, 0 warnings. (took 247ms)
+

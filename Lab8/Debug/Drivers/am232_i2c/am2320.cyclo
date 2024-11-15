@@ -1,0 +1,3 @@
+../Drivers/am232_i2c/am2320.c:32:22:am2320_Init	1
+../Drivers/am232_i2c/am2320.c:39:9:am2320_ReadValue	5
+../Drivers/am232_i2c/am2320.c:57:6:am2320_GetTemperatureAndHumidity	2

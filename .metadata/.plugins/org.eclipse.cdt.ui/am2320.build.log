@@ -1,0 +1,12 @@
+21:09:43 **** Build of configuration Debug for project am2320 ****
+make all 
+arm-none-eabi-size   am2320.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26144	    476	   2052	  28672	   7000	am2320.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "am2320.elf" "am2320.hex"
+ 
+
+21:09:44 Build Finished. 0 errors, 0 warnings. (took 610ms)
+

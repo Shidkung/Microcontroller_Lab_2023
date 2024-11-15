@@ -1,0 +1,151 @@
+15:18:36 **** Incremental Build of configuration Debug for project Lab01 ****
+make -j16 all 
+arm-none-eabi-gcc -o "Lab01.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\User\Desktop\MAD_2023\Lab01\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab01.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab01.elf
+ 
+arm-none-eabi-size   Lab01.elf 
+arm-none-eabi-objdump -h -S  Lab01.elf  > "Lab01.list"
+arm-none-eabi-objcopy  -O binary  Lab01.elf  "Lab01.bin"
+   text	   data	    bss	    dec	    hex	filename
+  16388	    340	   3236	  19964	   4dfc	Lab01.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab01.bin
+Finished building: Lab01.list
+ 
+ 
+15:22:32 **** Incremental Build of configuration Debug for project Lab01 ****
+make -j16 all 
+arm-none-eabi-size   Lab01.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16388	    340	   3236	  19964	   4dfc	Lab01.elf
+Finished building: default.size.stdout
+ 
+10:35:37 **** Incremental Build of configuration Debug for project Lab01 ****
+make -j16 all 
+arm-none-eabi-gcc -o "Lab01.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\User\Desktop\MAD_2023\Lab01\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab01.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab01.elf
+ 
+arm-none-eabi-size   Lab01.elf 
+arm-none-eabi-objdump -h -S  Lab01.elf  > "Lab01.list"
+arm-none-eabi-objcopy  -O binary  Lab01.elf  "Lab01.bin"
+   text	   data	    bss	    dec	    hex	filename
+  16388	    340	   3236	  19964	   4dfc	Lab01.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab01.bin
+ 
+Finished building: Lab01.list
+ 
+10:35:39 **** Incremental Build of configuration Release for project Lab02 ****
+make -j16 all 
+arm-none-eabi-size   Lab02.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4288	     20	   1572	   5880	   16f8	Lab02.elf
+Finished building: default.size.stdout
+ 
+10:35:40 **** Incremental Build of configuration Debug for project Lab03 ****
+make -j16 all 
+arm-none-eabi-size   Lab03.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12456	    184	   1712	  14352	   3810	Lab03.elf
+Finished building: default.size.stdout
+ 
+10:35:40 **** Incremental Build of configuration Debug for project Lab04 ****
+make -j16 all 
+arm-none-eabi-size   Lab04.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11764	     20	   1708	  13492	   34b4	Lab04.elf
+Finished building: default.size.stdout
+ 
+10:35:40 **** Incremental Build of configuration Debug for project Lab06 ****
+make -j16 all 
+arm-none-eabi-size   Lab06.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16928	    100	   2196	  19224	   4b18	Lab06.elf
+Finished building: default.size.stdout
+ 
+10:35:41 **** Incremental Build of configuration Debug for project Lab5 ****
+make -j16 all 
+arm-none-eabi-size   Lab5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29944	    476	   2404	  32824	   8038	Lab5.elf
+Finished building: default.size.stdout
+ 
+10:35:41 **** Incremental Build of configuration Debug for project Lab7 ****
+make -j16 all 
+arm-none-eabi-size   Lab7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16344	     36	   1804	  18184	   4708	Lab7.elf
+Finished building: default.size.stdout
+ 
+10:35:42 **** Incremental Build of configuration Debug for project Lab8 ****
+make -j16 all 
+arm-none-eabi-size   Lab8.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 190192	    480	   2216	 192888	  2f178	Lab8.elf
+Finished building: default.size.stdout
+ 
+10:35:42 **** Incremental Build of configuration Debug for project New_Clock ****
+make -j16 all 
+arm-none-eabi-size   New_Clock.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22144	    420	   3724	  26288	   66b0	New_Clock.elf
+Finished building: default.size.stdout
+ 
+10:35:42 **** Incremental Build of configuration Debug for project SPECIAL_LAB ****
+make -j16 all 
+arm-none-eabi-size   SPECIAL_LAB.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16400	     68	   2484	  18952	   4a08	SPECIAL_LAB.elf
+Finished building: default.size.stdout
+ 
+10:35:43 **** Incremental Build of configuration Debug for project Special_problem_02 ****
+make -j16 all 
+arm-none-eabi-size   Special_problem_02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19896	    100	   2324	  22320	   5730	Special_problem_02.elf
+Finished building: default.size.stdout
+ 
+10:35:43 **** Incremental Build of configuration Debug for project joystick_test ****
+make -j16 all 
+arm-none-eabi-size   joystick_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26372	    100	   2796	  29268	   7254	joystick_test.elf
+Finished building: default.size.stdout
+ 
+10:35:44 **** Incremental Build of configuration Debug for project special_problem1 ****
+make -j16 all 
+arm-none-eabi-size   special_problem1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11940	     20	   1844	  13804	   35ec	special_problem1.elf
+Finished building: default.size.stdout
+ 
+10:35:58 **** Incremental Build of configuration Debug for project Lab03 ****
+make -j16 all 
+arm-none-eabi-size   Lab03.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12456	    184	   1712	  14352	   3810	Lab03.elf
+Finished building: default.size.stdout
+ 
+21:13:27 **** Incremental Build of configuration Debug for project Lab03 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab03.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\User\Desktop\MAD_2023\Lab03\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab03.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab03.elf
+ 
+arm-none-eabi-size   Lab03.elf 
+arm-none-eabi-objdump -h -S  Lab03.elf  > "Lab03.list"
+   text	   data	    bss	    dec	    hex	filename
+  12444	    184	   1712	  14340	   3804	Lab03.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab03.list
+ 
+21:14:11 **** Incremental Build of configuration Debug for project Lab8 ****
+make -j16 all 
+arm-none-eabi-size   Lab8.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 190192	    480	   2216	 192888	  2f178	Lab8.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,10 @@
+21:20:11 **** Incremental Build of configuration Debug for project JoystickIntegrate ****
+make -j16 all 
+arm-none-eabi-size   JoystickIntegrate.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41584	    480	 156168	 198232	  30658	JoystickIntegrate.elf
+Finished building: default.size.stdout
+ 
+
+21:20:12 Build Finished. 0 errors, 0 warnings. (took 995ms)
+

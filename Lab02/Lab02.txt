@@ -1,0 +1,48 @@
+Configuration	Lab02
+STM32CubeMX 	6.9.0
+Date	07/24/2023
+MCU	STM32F767ZITx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+46	PB0	GPIO_Output	
+74	PB13	GPIO_Input	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+46	PB0	GPIO_Output	
+74	PB13	GPIO_Input	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Lab02
+Project Folder : C:\Users\User\Desktop\MAD_2023\Lab02
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F7 V1.17.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

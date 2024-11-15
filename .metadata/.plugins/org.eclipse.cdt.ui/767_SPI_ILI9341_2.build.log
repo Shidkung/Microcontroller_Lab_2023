@@ -1,0 +1,10 @@
+21:09:36 **** Build of configuration Debug for project 767_SPI_ILI9341_2 ****
+make -j16 all 
+arm-none-eabi-size   767_SPI_ILI9341_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 192608	    480	   2232	 195320	  2faf8	767_SPI_ILI9341_2.elf
+Finished building: default.size.stdout
+ 
+
+21:09:36 Build Finished. 0 errors, 0 warnings. (took 797ms)
+

@@ -1,0 +1,8 @@
+../Core/Src/main.c:74:5:main	8	static
+../Core/Src/main.c:127:6:SystemClock_Config	88	static
+../Core/Src/main.c:174:5:average_8	16	static
+../Core/Src/main.c:185:5:average_16	16	static
+../Core/Src/main.c:195:6:displayHex	128	static
+../Core/Src/main.c:231:6:HAL_ADC_ConvCpltCallback	120	static
+../Core/Src/main.c:240:6:HAL_ADC_ConvHalfCpltCallback	120	static
+../Core/Src/main.c:255:6:Error_Handler	4	static,ignoring_inline_asm
